@@ -1,0 +1,32 @@
+{
+  "name": "krots-ver-bot",
+  "version": "1.0.0",
+  "description": "An automation to validate transactions based on the Stork Verify extension.",
+  "main": "node index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itsnodrops/krots-ver-bot"
+  },
+  "keywords": [
+    "stork"
+  ],
+  "author": "itsnodrops",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/itsnodrops/krots-ver-bot/issues"
+  },
+  "homepage": "https://github.com/itsnodrops/krots-ver-bot#readme",
+  "dependencies": {
+    "amazon-cognito-identity-js": "^6.3.12",
+    "axios": "^1.8.1",
+    "figlet": "^1.8.0",
+    "fs": "^0.0.1-security",
+    "https-proxy-agent": "^7.0.6",
+    "socks-proxy-agent": "^8.0.5"
+  }
+}

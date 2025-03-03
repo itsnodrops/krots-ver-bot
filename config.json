@@ -1,0 +1,21 @@
+{
+  "accounts": [
+    {
+      "username": "1mail@mail.com",
+      "password": "1password"
+    },
+    {
+      "username": "2mail@gmail.com",
+      "password": "3mail@gmail.com"
+    }
+  ],
+  "stork": {
+    "intervalSeconds": 60
+  },
+  "concurrency": {
+    "maxTasks": 1
+  },
+  "proxy": {
+    "enable": false
+  }
+}
